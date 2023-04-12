@@ -1,0 +1,32 @@
+[build-system]
+requires = [
+    "setuptools >= 65",
+    "wheel >= 0.38",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wagtail-contact-page"
+version = "2023.1.0"
+description = "ContactPage type for Wagtail"
+authors = [
+    {name = "David Nugent", email = "davidn@uniquode.io"}
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires-python = ">=3.11"
+
+dependencies = [
+    "django >= 4.2",
+    "wagtail >= 4.2.2",
+    "django-widget-tweaks >= 1.4",
+]
+
+[project.urls]
+Home = "https://github.com/deeprave/wagtail-contact-page"
+
+[tool.setuptools]
+py-modules = [
+    "contact_page"
+]

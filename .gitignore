@@ -1,0 +1,11 @@
+.DS_Store
+.localized
+.idea/
+.vscode/
+.venv/
+__pycache__
+*.py[cod]
+
+*.swp
+
+dist/
