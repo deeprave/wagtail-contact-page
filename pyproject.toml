@@ -6,15 +6,14 @@ authors = ["David Nugent <davidn@uniquode.io>"]
 license = "MIT"
 readme = "README.md"
 packages = [
-    {include = "contact_page"}
+    { include = "contact_page" }
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.10"
-django = ">=4.2"
-wagtail = ">=5.0"
-django-widget-tweaks = ">=1.4"
-
+python = ">= 3.11"
+django = ">= 4.1"
+wagtail = ">= 4.2, >= 5.0"
+django-widget-tweaks = ">= 1.4"
 
 [build-system]
 requires = ["poetry-core"]
