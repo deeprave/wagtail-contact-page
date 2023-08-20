@@ -4,6 +4,7 @@
 .vscode/
 .venv/
 __pycache__
+.*_cache
 *.py[cod]
 .python-version
 *.swp
